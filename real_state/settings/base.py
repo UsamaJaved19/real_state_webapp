@@ -164,8 +164,8 @@ logging.config.dictConfig(
             "file" :{
                 "level": "INFO",
                 "class": "logging.FileHandler",
-                "formatters": "file",
-                "filename": "logs/real_estate.logs"
+                "formatter": "file",
+                "filename": "logs/real_estate.log"
             },
             "django.server": DEFAULT_LOGGING["handlers"]["django.server"],
 
